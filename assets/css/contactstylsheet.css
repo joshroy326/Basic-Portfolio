@@ -1,0 +1,126 @@
+* { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-image: url("../images/prism.png");
+ }
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: white;
+}
+.inner-header {
+  width: 960px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.name {
+  height: 100%;
+  display: table;
+  float: left;
+}
+.name h1 {
+  clear: both;
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Montserrat;
+  padding-left: 40px;
+  background-color: #4aaaa5;
+  width: 180px;
+}
+.nav {
+  float: right;
+  height: 100%;
+  color: #4aaaa5;
+}
+.nav a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+.nav a li {
+  clear: both;
+  display: table-cell;
+  vertical-align: middle;
+  color: #4aaaa5;
+  font-family: Montserrat;
+}
+
+.post-content {
+    background-color: #ffffff;
+    width: 960px;
+    height: 0%;
+    margin: 24px auto;
+    font-family: Montserrat;
+    overflow: auto;
+}
+
+.contact {
+    padding: 20px;
+    margin-left: 17px;
+    color: #4aaaa5;
+    overflow: auto;
+}
+
+.line {
+    border-bottom: 2px solid #4aaaa58c;
+    width: 95%;
+    position: relative;
+    left: 25px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+.footer {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #666666;
+    position: fixed;
+    bottom: -10px;
+    border-top: 7px solid #cccccc;
+}
+
+#fname {
+    position: relative;
+    top: 12px;
+    left: 24px;
+    width: 912px;
+
+}
+
+#email {
+    position: relative;
+    top: 12px;
+    left: 24px;
+    width: 912px;
+
+}
+
+#subject {
+    position: relative;
+    top: 12px;
+    left: 24px;
+    width: 912px;
+}
+
